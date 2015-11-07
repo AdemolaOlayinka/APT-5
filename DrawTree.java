@@ -48,7 +48,8 @@ public class DrawTree {
 		else{
 			int len = targ.children.size();
 			for (Node x : targ.children){
-				adder(x, "  " + gap);
+				adder(x, "" + gap);
+				//fuck your whitespace
 			}
 		}
 	
